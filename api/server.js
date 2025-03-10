@@ -1,7 +1,7 @@
 import Hapi from 'hapi';
 
 const server = new Hapi.Server({
-  host: '192.168.155.188',
+  host: '127.0.0.1', //change this to your ip if using expo go
   port: '8080',
   routes: {
     cors: { origin: 'ignore' },
