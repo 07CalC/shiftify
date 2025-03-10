@@ -14,3 +14,5 @@ copy .env.example to .env following the instructions given
 in another terminal 
 run: 
 cd shiftify && npx expo start
+
+# if using expo go you might need to change the api server host check api/server.js
